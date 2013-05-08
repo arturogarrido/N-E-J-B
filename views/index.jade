@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	div.container
+		div.hero-unit
+			h1 N*E*J*B
+			p This is a Node+Express+Jade+Bootstrap basic project structure.			
+		form.form-signin
+			h2 Please sign in
+			input.input-block-level(id='username', type='text', placeholder='Username')
+			input.input-block-level(id="password", type="password", placeholder="Password")
+			label.checkbox
+				input(type='checkbox', value='Remember me') 
+				| Remember me
+			input.btn.btn-large.btn-block.btn-primary(type='submit', value='Sign In')
+		div.footer
+			p.text-center
+				| Made with 
+				i.icon-heart
+				|  by 
+				a(href='http://twitter.com/arturogarrido') @arturogarrido 
+				| - 2013
